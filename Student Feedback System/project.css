@@ -1,0 +1,259 @@
+.body{
+		background-image:url('EDUCATION-text.jpg');
+		}
+.label
+{
+    font-family:Times New Roman;
+    font-size:x-large;
+    font-weight:bolder;
+}
+.required
+{
+    background-color:#ffff99;
+}
+.heading
+{
+    font-family:Georgia;
+    font-size:40px;
+    font-style:italic;
+    font-variant:normal;
+    font-weight:bolder;
+    letter-spacing:inherit;
+    text-decoration:underline;
+    text-align: center;
+}
+.button
+{
+    background-color:Maroon;
+    color:White;
+    font-size:large;
+    font-family:@MS Gothic;
+    font-weight: 700;
+    margin-left: 28px;
+}
+.boundfield
+{
+    font-family:Georgia;
+    font-size:larger;
+    color:Maroon;
+}
+.subheading
+{
+    background-color:Maroon;
+    color:#ffffcc;
+    text-align:center;
+    font-family:Georgia;
+    font-size:larger;
+    font-weight:bolder;
+    font-size:20px;
+}
+.row2
+{
+    background-color:#ffffcc;
+    color:#800000;
+    border-top: 2px solid #800000;
+    border-bottom:2px solid #800000;
+    border-right:hidden;
+    border-left:hidden;
+}
+.row3
+{
+    background-color:White;
+    color:Maroon;
+    
+}
+.question1
+{
+    width:650px;
+    font-family:Georgia;
+    font-size:larger;
+    font-weight:bold;
+    border: hidden;
+    text-align: left;
+    height:auto;
+}
+.question
+{
+    width:450px;
+    font-family:Georgia;
+    font-size:medium;
+    font-weight:bold;
+    text-align: left;
+    height:auto;
+    border-top: 2px solid #800000;
+    border-bottom:2px solid #800000;
+    border-right:hidden;
+    border-left:hidden;
+}
+.radiobutton
+{
+    font-family:Georgia;
+    font-size:medium;
+    font-weight:bold;
+    width:200px;
+    text-align: left;
+    height:auto;
+    border-top: 2px solid #800000;
+    border-bottom:2px solid #800000;
+    border-right:hidden;
+    border-left:hidden;
+}
+.radiobutton1
+{
+    font-family:Georgia;
+    font-size:medium;
+    font-weight:bold;
+    width:200px;
+    border: hidden;
+    border-collapse:collapse;
+    text-align: left;
+    height:auto;
+}
+.feedbackcol1
+{
+    font-family:Georgia;
+    font-size:medium;
+    font-weight:bold;
+    text-align: left;
+    width:10px;
+    height:auto; 
+    border-top: 2px solid #800000;
+    border-bottom:2px solid #800000;
+    border-right:hidden;
+    border-left:hidden;
+}
+.fc1
+{
+    font-family:Georgia;
+    font-size:medium;
+    font-weight:bold;
+    border:hidden;
+    text-align: left;
+    width:10px;
+    height:auto;
+}
+.subsubh
+{
+    background-color:#ff9966;
+    color:Maroon;
+}
+.stulogin
+{
+    background-color:#000099;
+    color:White;
+    width:inherit;
+}
+.stuid
+{
+    background-color:#ccffff;
+    color:#000099;
+    width:inherit;
+    border-bottom:2px solid #000099;
+    height:100px;
+}
+.stupass
+{
+    background-color:White;
+    color:#000099;
+    width:inherit;
+    border-bottom:2px solid #000099;
+    height:100px;
+}
+.adminlogin
+{
+    background-color:#ff3300;
+    color:#ffffcc;
+    width:inherit;
+}
+.adminrow1
+{
+    background-color:#ffffcc;
+    color:#ff3300;
+    width:inherit;
+    border-bottom:2px solid #ff3300;
+    height:100px;
+}
+.adminrow2
+{
+    background-color:White;
+    color:#ff3300;
+    width:inherit;
+    border-bottom:2px solid #ff3300;
+    height:100px;
+}
+.content1
+    {
+         width:700px; margin:1em; border-collapse:collapse;
+    }
+    .header1
+    {
+        width:700px;  padding:.3em; border:1px #ccc solid;background:#ffcc99; cursor:pointer;border-color:Maroon;
+    }
+    .name
+    {
+      
+        color:#ffcc99;
+        font-size:large;
+        background-color: #990000; font-weight:bold;
+    }
+    .name1
+    {
+        color:#990000;
+        font-size:large;
+        background-color:#ffcc99; font-weight:bold;
+    }
+    .ratingpanel
+    {
+     background-color:White;
+     width:300px;
+     border:3px solid green;
+     padding:0;
+    }
+.ratingstar
+    {
+    font-size: 0pt; width:50px; height:50px; margin:0px; padding:0px; cursor: pointer; display: block; background-repeat: no-repeat;
+    }
+.starempty
+   {
+   background-image: url(stars/starempty.png);
+   }
+  .starfilled
+   {
+   background-image: url(stars/starfilled.png);
+   }
+   .starwaiting
+   {
+   background-image: url(stars/starwaiting.png);
+   }
+  .ratelabel
+  {
+      color:#0033CC;
+  }
+.collapsepanelheader
+ {
+  width: 800px;
+  height: 80px;
+  color:Maroon;
+  background-color:transparent;
+  font-weight:bold;
+  float:left;
+  padding:5px;
+  cursor:pointer;
+  vertical-align:middle;
+ } 
+.feedbackinstructionheading
+{
+    background-color:#660066;
+    color:#FFCCFF;
+    font-family:Baskerville Old Face;
+    font-size:x-large;
+}
+.feedbackinstruct
+{
+    background-color:#ffccff;
+    color:#660066;
+    font-family:Baskerville Old Face;
+    font-size:medium;
+}
+
+   

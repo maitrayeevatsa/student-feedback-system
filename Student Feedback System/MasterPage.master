@@ -1,0 +1,197 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+   
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+            height: 431px;
+        }
+        .style3
+        {
+            width: 100;
+            height: 220px;
+        }
+        .style6
+        {
+            width: 366px;
+            height: 66px;
+        }
+        .style7
+        {
+            width: 115px;
+            height: 66px;
+        }
+        .style8
+        {
+            width: 140px;
+            height: 89px;
+        }
+        .style9
+        {
+            height: 220px;
+        }
+        </style>
+        <style type="text/css">
+        body
+        {
+            
+            background-image:url('EDUCATION-text.jpg');
+        }
+            .style11
+            {
+                height: 66px;
+                width: 168px;
+            }
+            .style12
+            {
+                height: 89px;
+            }
+            .style14
+            {
+                width: 116px;
+                height: 220px;
+            }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="style1">
+            <tr>
+                <td class="style7">
+                    <asp:ImageButton ID="ImageButton1" runat="server" Height="109px" 
+                        ImageUrl="~/20190212_115138.png" Width="163px" BackColor="DarkGray" 
+                        onclick="ImageButton1_Click" />
+                </td>
+                <td class="style6">
+                     <br />
+                    &nbsp;
+                    <asp:Label runat="server" Text="Banasthali Vidyapith" 
+                        ForeColor="#66FFFF" Font-Bold="True" Font-Size="50px" 
+                        Font-Underline="True" style="text-align: left" width="900px" 
+                        Height="54px"></asp:Label>
+                    <br />
+                    <br />
+                    <asp:Label ID="Label15" runat="server" Font-Bold="True" Font-Italic="True" 
+                         Font-Size="Large" ForeColor="#66CCFF" >                                                                                                                                  ACCREDITED &#39;A&#39; BY NAAC</asp:Label>
+                     <br />
+                    <br />
+                </td>
+                <td class="style11">
+                    <asp:Image ID="Image1" runat="server" Height="117px" 
+                        ImageUrl="~/20190212_115231.png" style="margin-left: 8px" Width="152px"
+                        BorderStyle="solid" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <table class="style1">
+                        <tr>
+                            <td class="style9" colspan="2">
+                                <asp:Menu ID="Menu1" runat="server" BorderColor="DarkGray" 
+                                    ForeColor="#000066" Font-Bold="True" onmenuitemclick="Menu1_MenuItemClick" 
+                                    Font-Size="Large" BackColor="#CCFFFF">
+                                    <Items>
+                                        <asp:MenuItem NavigateUrl="~/Home.aspx" Text="Home" Value="Home">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem NavigateUrl="~/AdminSignup.aspx" Text="Admin Sign Up" 
+                                            Value="Admin Sign Up"></asp:MenuItem>
+                                        <asp:MenuItem Text="Student Registration" Value="Student Registration" 
+                                            NavigateUrl="~/Sturegistration.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Admin Data" Value="Admin Data" 
+                                            NavigateUrl="~/Admin.aspx">
+                                            <asp:MenuItem NavigateUrl="~/AdminStuDB.aspx" Text="Student Database" 
+                                                Value="Student Database"></asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/CurriculumDB.aspx" 
+                                                Text="Curriculum &amp; Teaching Feedback " 
+                                                Value="Curriculum &amp; Teaching Feedback "></asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/GoverDB.aspx" Text="Governance Feedback" 
+                                                Value="Governance Feedback"></asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/RESidb.aspx" Text="Residance Feedback" 
+                                                Value="Residance Feedback"></asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/infradb.aspx" Text="Infrastructure Feedback" 
+                                                Value="Infrastructure Feedback"></asp:MenuItem>
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Feedback Report" Value="Feedback Report" 
+                                            NavigateUrl="~/Feedback1.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Statistics" Value="Statistics" 
+                                            NavigateUrl="~/Stats.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Rate Us" Value="Rate Us" NavigateUrl="~/rateus1.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Contact Us" Value="Contact Us" 
+                                            NavigateUrl="~/ContactUs.aspx"></asp:MenuItem>
+                                    </Items>
+                                </asp:Menu>
+                            </td>
+                            <td class="style9">
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                    <p style="width: 738px">
+                                        &nbsp;</p>
+                                </asp:ContentPlaceHolder>
+                            </td>
+                            <td class="style14">
+                                </td>
+                            <td class="style3" 
+                                style="font-size: large; font-weight: bold; font-style: normal; font-variant: normal; text-transform: none; color: #00ccff; text-decoration: blink">
+                               <br /> Dear Students,<br />
+                                this portal has been designed to seek feedback from you to strengthen the 
+                                quality of teaching-learning environment and to improve the prformance of the 
+                                teachers.This also helps us to know about yours suggestion and view regarding 
+                                our infrastructure and governance.. The informtion provided by you will be kept confidental.</td>
+                        </tr>
+                        <tr>
+                            <td class="style8">
+                                &nbsp;&nbsp; &nbsp;<asp:ImageButton 
+                                    ID="ImageButton2" runat="server" BackColor="#CCCCCC" BorderStyle="Solid" 
+                                    Height="98px" ImageUrl="~/IMG_20190226_152028.jpg" Width="151px" />
+                            </td>
+                            <td class="style12" colspan="4">
+                                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <br />
+                                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <br />
+                                <asp:Label ID="Label13" runat="server" Font-Bold="True" Font-Overline="False" 
+                                    Font-Size="Large" Font-Strikeout="False" Font-Underline="True" 
+                                    Text="&quot;Banasthali is enshrined in my heart&quot;" ForeColor="#CCFFFF"></asp:Label>
+                                <br />
+&nbsp;&nbsp;&nbsp;<asp:Label ID="Label14" runat="server" Font-Italic="True" ForeColor="White" 
+                                    Text="-Mahatma Gandhi (1946)" Font-Bold="True"></asp:Label>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <br />
+                                <asp:Label ID="Label11" runat="server" Font-Bold="True" Font-Size="Large" 
+                                    Font-Underline="True" 
+                                    
+                                    Text="&quot;If I had been a girl I would have come to Banasthali for my education&quot; " 
+                                    ForeColor="#CCFFFF"></asp:Label>
+                                <br />
+&nbsp;&nbsp;&nbsp;<asp:Label ID="Label12" runat="server" Font-Italic="True" ForeColor="White" 
+                                    Text="-Pandit Nehru (1945) " Font-Bold="True"></asp:Label>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="style4" colspan="5">
+                                <asp:Label ID="Label2" runat="server" ForeColor="White" 
+                                    
+                                    
+                                    Text="Notified Under Section (3) of University Grants Commision Act.@2007 Banasthali Vidyapith"></asp:Label>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            </table>
+    </div>
+    </form>
+</body>
+</html>
